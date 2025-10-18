@@ -1,0 +1,31 @@
+# Womba API Dependencies
+
+# Web framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+
+# HTTP client
+httpx==0.26.0
+
+# Logging
+loguru==0.7.2
+
+# CORS support
+python-multipart==0.0.6
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.23.3
+httpx==0.26.0  # For testing HTTP endpoints
+
+# Code quality
+black==23.12.1
+ruff==0.1.9
+
+# Install womba package in development mode
+# Run: pip install -e ../womba
+
